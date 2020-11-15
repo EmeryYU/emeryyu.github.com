@@ -14,17 +14,20 @@ a{
 ul{
     padding-left: 3%;
     margin: 10px 0px;
+    
 }
 li{
     margin:0px;
     list-style: none;
 }
+
 .breadcrumb a {
     background-color: inherit;
 }
 
 .breadcrumb {
   text-align: left;
+  float: right;
 }
 .breadcrumb li {
   float: left;
@@ -32,7 +35,7 @@ li{
 
 .breadcrumb a {
   color: #fff;
-  background: darkcyan;
+  background: rgb(83, 85, 85);
   text-decoration: none;
   position: relative;
   height: 30px;
@@ -46,7 +49,7 @@ li{
 .breadcrumb a::after {
   content: "";
   position: absolute;
-  border-color: darkcyan;
+  border-color: rgb(83, 85, 85);
   border-style: solid;
   border-width: 15px 5px;
 }
@@ -62,25 +65,41 @@ li{
 .breadcrumb a::after {
   left: 100%;
   border-color: transparent;
-  border-left-color: darkcyan;
+  border-left-color: rgb(83, 85, 85);
 }
 
 .breadcrumb a:hover {
-  background-color: blue;
+  background-color: rgb(101, 73, 224);
 }
 .breadcrumb a:hover::before {
-  border-color: blue;
+  border-color: rgb(101, 73, 224);
   border-left-color: transparent;
 }
 .breadcrumb a:hover::after {
-  border-left-color: blue;
+  border-left-color: rgb(101, 73, 224);
 }
 
+ 
+#banner {
+  height: 16rem;
+  background-image: url("../Images/Welcome.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#banner h1 {
   
-h1 {
-    color: rgb(63, 9, 211);
-    font-family: "Arial Rounded MT";
-  }
+  font-family: 'Ruda', sans-serif;
+  font-size: 3.75rem;
+  font-weight: 900;
+  color: white;
+  
+}
   
   
 p, 
@@ -98,6 +117,7 @@ a {
   padding: 0px;
   display: inline;
 }
+
 
   .container {
     width: 50%;
