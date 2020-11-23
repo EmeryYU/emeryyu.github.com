@@ -28,7 +28,9 @@ li{
 .breadcrumb {
   text-align: left;
   float: right;
+  height: 30px;
 }
+
 .breadcrumb li {
   float: left;
 }
@@ -93,14 +95,15 @@ li{
 }
 
 #banner h1 {
-  
   font-family: 'Ruda', sans-serif;
   font-size: 3.75rem;
   font-weight: 900;
   color: white;
-  
 }
   
+.introduction p{
+  font-family: "ZCOOL KuaiLe";
+}
   
 p, 
 li {
@@ -120,13 +123,13 @@ a {
 
 
   .container {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
     overflow: hidden;
+    display: inline-block;
   }
    
   .container img {
     max-width: 100%;
     height: auto;
-    display: block;
   }
