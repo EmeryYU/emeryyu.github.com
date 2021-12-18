@@ -327,81 +327,81 @@ ul#nav li.current a { color: #F06000; }
 
 .java {
   	width: 80%;
-  	-moz-animation: java 2s ease;
-  	-webkit-animation: java 2s ease;
+  	-moz-animation: photoshop 2s ease;
+  	-webkit-animation: photoshop 2s ease;
 }
 .python {
   	width: 75%;
-  	-moz-animation: python 2s ease;
-  	-webkit-animation: python 2s ease;
+  	-moz-animation: illustrator 2s ease;
+  	-webkit-animation: illustrator 2s ease;
 }
 .ccpp {
   	width: 70%;
-  	-moz-animation: ccpp 2s ease;
-  	-webkit-animation: ccpp 2s ease;
+  	-moz-animation: wordpress 2s ease;
+  	-webkit-animation: wordpress 2s ease;
 }
 .sql {
   	width: 75%;
-  	-moz-animation: sql 2s ease;
-  	-webkit-animation: sql 2s ease;
+  	-moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
 }
 .js {
   	width: 50%;
-  	-moz-animation: js 2s ease;
-  	-webkit-animation: js 2s ease;
+  	-moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
 }
 .r {
   	width: 60%;
-  	-moz-animation: r 2s ease;
-  	-webkit-animation: r 2s ease;
+  	-moz-animation: jquery 2s ease;
+  	-webkit-animation: jquery 2s ease;
 }
 
-@-moz-keyframes java {
+@-moz-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes python {
+@-moz-keyframes illustrator {
   0%   { width: 0px;  }
   100% { width: 75%;  }
 }
-@-moz-keyframes ccpp {
+@-moz-keyframes wordpress {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-moz-keyframes sql {
+@-moz-keyframes css {
   0%   { width: 0px;  }
   100% { width: 75%;  }
 }
-@-moz-keyframes js {
+@-moz-keyframes html5 {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-moz-keyframes r {
+@-moz-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
 
-@-webkit-keyframes java {
+@-webkit-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes python {
+@-webkit-keyframes illustrator {
   0%   { width: 0px;  }
   100% { width: 75%;  }
 }
-@-webkit-keyframes ccpp {
+@-webkit-keyframes wordpress {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-webkit-keyframes sql {
+@-webkit-keyframes css {
   0%   { width: 0px;  }
   100% { width: 75%;  }
 }
-@-webkit-keyframes js {
+@-webkit-keyframes html5 {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-webkit-keyframes r {
+@-webkit-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
