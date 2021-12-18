@@ -325,83 +325,83 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.java {
+.aaa {
   	width: 80%;
-  	-moz-animation: java 2s ease;
-  	-webkit-animation: java 2s ease;
+  	-moz-animation: aaa 2s ease;
+  	-webkit-animation: aaa 2s ease;
 }
-.python {
+.bbb {
   	width: 75%;
-  	-moz-animation: python 2s ease;
-  	-webkit-animation: python 2s ease;
+  	-moz-animation: bbb 2s ease;
+  	-webkit-animation: bbb 2s ease;
 }
-.ccpp {
+.ccc {
   	width: 70%;
-  	-moz-animation: ccpp 2s ease;
-  	-webkit-animation: ccpp 2s ease;
+  	-moz-animation: ccc 2s ease;
+  	-webkit-animation: ccc 2s ease;
 }
-.sql {
+.ddd {
   	width: 75%;
-  	-moz-animation: sql 2s ease;
-  	-webkit-animation: sql 2s ease;
+  	-moz-animation: ddd 2s ease;
+  	-webkit-animation: ddd 2s ease;
 }
-.js {
+.eee {
   	width: 50%;
-  	-moz-animation: js 2s ease;
-  	-webkit-animation: js 2s ease;
+  	-moz-animation: eee 2s ease;
+  	-webkit-animation: eee 2s ease;
 }
-.r {
+.fff {
   	width: 60%;
-  	-moz-animation: r 2s ease;
-  	-webkit-animation: r 2s ease;
+  	-moz-animation: fff 2s ease;
+  	-webkit-animation: fff 2s ease;
 }
 
-@-moz-keyframes java {
+@-moz-keyframes aaa {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes python {
+@-moz-keyframes bbb {
   0%   { width: 0px;  }
   100% { width: 75%;  }
 }
-@-moz-keyframes ccpp {
+@-moz-keyframes ccc {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-moz-keyframes sql {
+@-moz-keyframes ddd {
   0%   { width: 0px;  }
   100% { width: 75%;  }
 }
-@-moz-keyframes js {
+@-moz-keyframes eee {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-moz-keyframes r {
+@-moz-keyframes fff {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
 
-@-webkit-keyframes java {
+@-webkit-keyframes aaa {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes python {
+@-webkit-keyframes bbb {
   0%   { width: 0px;  }
   100% { width: 75%;  }
 }
-@-webkit-keyframes ccpp {
+@-webkit-keyframes ccc {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-webkit-keyframes sql {
+@-webkit-keyframes ddd {
   0%   { width: 0px;  }
   100% { width: 75%;  }
 }
-@-webkit-keyframes js {
+@-webkit-keyframes eee {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-webkit-keyframes r {
+@-webkit-keyframes fff {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
