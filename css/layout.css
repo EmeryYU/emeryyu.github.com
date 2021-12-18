@@ -327,33 +327,33 @@ ul#nav li.current a { color: #F06000; }
 
 .java {
   	width: 80%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: aaa 2s ease;
+  	-webkit-animation: aaa 2s ease;
 }
 .python {
   	width: 75%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	-moz-animation: bbb 2s ease;
+  	-webkit-animation: bbb 2s ease;
 }
 .ccpp {
   	width: 70%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+  	-moz-animation: ccc 2s ease;
+  	-webkit-animation: ccc 2s ease;
 }
 .sql {
   	width: 75%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: ddd 2s ease;
+  	-webkit-animation: ddd 2s ease;
 }
 .js {
   	width: 50%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: eee 2s ease;
+  	-webkit-animation: eee 2s ease;
 }
 .r {
   	width: 60%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: fff 2s ease;
+  	-webkit-animation: fff 2s ease;
 }
 
 @-moz-keyframes photoshop {
