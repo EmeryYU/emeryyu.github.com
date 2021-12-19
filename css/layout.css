@@ -95,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #397BDF; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -194,7 +194,7 @@ ul#nav li.current a { color: #397bdf; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #397BDF; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -242,7 +242,7 @@ ul#nav li.current a { color: #397bdf; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #397BDF; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -251,7 +251,7 @@ ul#nav li.current a { color: #397bdf; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #397BDF;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -438,7 +438,7 @@ ul#nav li.current a { color: #397bdf; }
    display: inline-block;
    margin: 0 20px;
    padding: 0;
-   color: #1c65d1;
+   color: #0f4aa3;
  }
 
 /* ------------------------------------------------------------------ */
@@ -669,8 +669,8 @@ call-to-action .button {
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
 
-#testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+#memberships {
+   background: #1F1F1F url(../images/memberships-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -680,19 +680,19 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
-#testimonials .text-container {
+#memberships .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#testimonials h1 {
+#memberships h1 {
    font: 18px/24px 'opensans-bold', sans-serif;   
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
+#memberships h1 span { display: none; }
+#memberships .header-col { padding-top: 9px; }
+#memberships .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
@@ -703,31 +703,52 @@ call-to-action .button {
    color: #fff;
 }
 
+#memberships .orgs {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   transition: all 0.3s ease;
+   margin-bottom: 10px;
+}
+
+#memberships .orgs img{
+   height: 150px;
+   width: 150px;
+   object-fit: cover;
+   border-radius: 50%;
+   border: 5px solid #ffffff;
+   transition: all 0.3s ease;
+}
+
 /*	Blockquotes */
-#testimonials blockquote {
+#memberships blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+   /* text-shadow: 0px 1px 3px rgba(0, 0, 0, 1); */
 }
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
-   font-family: 'librebaskerville-italic', serif;
+#memberships blockquote:before { content: none; }
+#memberships blockquote p {
+   font-family: 'librebaskerville', serif;
    padding: 0;
    font-size: 24px;
    line-height: 48px;
-   color: #fff
-}
-#testimonials blockquote cite {
-   display: block;
-   font-size: 12px;
-   font-style: normal;
-   line-height: 18px;
    color: #fff;
+   text-align: center;
 }
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
+#memberships blockquote h6 {
+   font-family: 'librebaskerville-italic', serif;
+   padding: 0;
+   font-size: 20px;
+   line-height: 30px;
+   color: #fff;
+   text-align: center;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1); 
+}
+#memberships blockquote cite:before { content: "\2014 \0020"; }
+#memberships blockquote cite a,
+#memberships blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -782,7 +803,7 @@ call-to-action .button {
     width: 100%;
     position: absolute;
     bottom: -20px;
-    text-align: left;
+    text-align: center;
 }
 .flex-control-nav li {
     margin: 0 6px;
@@ -826,7 +847,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #397BDF; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -887,7 +908,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #397BDF;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -906,7 +927,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #397BDF;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -918,7 +939,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #397BDF; }
 
 #message-warning i,
 #message-success i {
